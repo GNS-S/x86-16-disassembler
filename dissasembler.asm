@@ -8,6 +8,8 @@
 ;(and, addmitedly, a certain lack of foresight),
 ;however the code has been annotated
 
+;TODO properly align the output
+
 .model small
 READSIZE	EQU 10			;size (in bytes) used in reading buffer
 WRITESIZE	EQU 10			;size (in bytes) used in writing buffer
