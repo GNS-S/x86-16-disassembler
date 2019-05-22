@@ -18,11 +18,14 @@ Running this on TASM:
     >tasm disassembler.asm
     
     >tlink disassembler.obj
-This creates an .exe of the disassembler.
+    
+    This creates an .exe of the disassembler.
 3. Assemble the code to disassemble and link it
     >tasm example-code.asm
     
-    >tlink /t example-code.obj  <- notice the /t as we're making this a .com not an .exe
+    >tlink /t example-code.obj
+    
+    notice the /t as we're making this a .com not an .exe
 4. Run it
     >disassembler example-code.com RESULT-FILE-NAME.txt
     
