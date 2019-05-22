@@ -1,7 +1,7 @@
 # x86-16-disassembler
 Partial 16-bit disassembler modeled after intel 8086 architecture
 
-This was an optional task for extra credit in my Computer Architecture course
+This was an optional task for extra credit in my Computer Architecture course.
 The disassembler itself is a majorly simplified version as writing a proper disassembler in a couple months for an Undergraduate student would be rather ludicrous and for the goal of this task, which is to understand the inner workings of code, this is sufficient.
 
 The disassembler will only work on the .COM format, which is essentially a simplified variant of .EXE.
