@@ -30,3 +30,5 @@ Running this on TASM:
     >disassembler example-code.com RESULT-FILE-NAME.txt
     
     NOTE: the file names should be 5 characters or less, due to certain restraints in the architecture
+    
+There is a result file to showcase what you should get while disassembling the test-code file
