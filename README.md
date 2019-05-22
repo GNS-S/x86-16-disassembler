@@ -12,14 +12,18 @@ You will need a 16 bit coprocessor emulator, I used TASM.
 Running this on TASM:
 1. Mount a directory and go to it. E. g. 
     >mount g C:\Users\Desktop\Somewhere\Here
+    
     >g:
 2. Assemble the disassembler :) and link it
-    tasm disassembler.asm
-    tlink disassembler.obj
+    >tasm disassembler.asm
+    
+    >tlink disassembler.obj
 This creates an .exe of the disassembler.
 3. Assemble the code to disassemble and link it
-    tasm example-code.asm
-    tlink /t example-code.obj  <- notice the /t as we're making this a .com not an .exe
+    >tasm example-code.asm
+    
+    >tlink /t example-code.obj  <- notice the /t as we're making this a .com not an .exe
 4. Run it
-    disassembler example-code.com RESULT-FILE-NAME.txt
+    >disassembler example-code.com RESULT-FILE-NAME.txt
+    
     NOTE: the file names should be 5 characters or less, due to certain restraints in the architecture
