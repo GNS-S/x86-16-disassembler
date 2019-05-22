@@ -1,28 +1,10 @@
 .model small
 buferioDydis	EQU	121
 
-;.stack 100h
-
-;*******************Perkelta į kodo segmento pabaigą************
-;.data
-;	bufDydis DB  buferioDydis
-;	nuskaite DB  ?
-;	buferis	 DB  buferioDydis dup ('$')
-;	ivesk	 DB  'Iveskite eilute:', 13, 10, '$'
-;	rezult	 DB  'Radau tiek didziuju raidziu: '
-;	rezult2	 DB  3 dup (' ')
-;	enteris	 DB  13, 10, '$'
-;***************************************************************
-			
-;*************************Pakeista****************************** 
-;.code
 BSeg SEGMENT
-;***************************************************************
 
-;*******************Pridėta*************************************
 	ORG	100h
 	ASSUME ds:BSeg, cs:BSeg, ss:BSeg
-;***************************************************************
 
 Pradzia:; 5 + 1 + 7 + 2 + 4 + 1 + 8 + 1 + 2 + 1 + 2 + 2 + 2 + 1 + 1 
 	xd db 12h
