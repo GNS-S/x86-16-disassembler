@@ -11,7 +11,9 @@ You will need a 16 bit coprocessor emulator, I used TASM.
 
 Running this on TASM:
 1. Mount a directory and go to it. E. g. 
+
     mount g C:\Users\Desktop\Somewhere\Here
+    
     g:
 2. Assemble the disassembler :) and link it
     tasm disassembler.asm
