@@ -31,6 +31,6 @@ Running this on TASM:
 4. Run it
     >disassembler example-code.com RESULT-FILE-NAME.txt
     
-    NOTE: the file names should be 5 characters or less, due to certain restraints in the architecture
+    NOTE: the file names should be 5 characters or less, due to restraints in the architecture
     
 There is a result.txt file to showcase what you should get while disassembling the example-code file
