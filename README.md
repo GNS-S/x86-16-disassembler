@@ -7,7 +7,8 @@ The disassembler itself is a majorly simplified version as writing a proper disa
 The disassembler will only work on the .COM format, which is essentially a simplified variant of .EXE.
 Partial means it doesn't understand all of the commands, just the most common ones.
 
-HOW TO USE THIS:
+## USAGE:
+
 You will need a 16 bit coprocessor emulator, I used TASM.
 
 Running this on TASM:
